@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Payments>
+<record>
+              <PaymentID>	1	 </PaymentID>
+              <OrderID>		100   </OrderID>
+              <PaymentMethodID>	credit	</PaymentMethodID>
+              <PaymentAmount>	$200	</PaymentAmount>
+              <PaymentDate>	09/01/2017	</PaymentDate>
+              <CheckNumber>		12</CheckNumber>
+<CreditCard>		visa</CreditCard>
+<CreditCardNumber>1200 1000 1000 10000</CreditCardNumber>
+<CardholdersName>abc		</CardholdersName>
+<CreditCardExpDate>	09/21	</CreditCardExpDate>
+<CreditCardAuthorizationNumber>	12	</CreditCardAuthorizationNumber>
+
+</record>
+<record>
+ <PaymentID>	2	 </PaymentID>
+              <OrderID>		200 </OrderID>
+              <PaymentMethodID>	credit	</PaymentMethodID>
+              <PaymentAmount>	$300	</PaymentAmount>
+              <PaymentDate>	09/23/2017	</PaymentDate>
+              <CheckNumber>		13</CheckNumber>
+<CreditCard>		visa</CreditCard>
+<CreditCardNumber>1200 1000 1000 1030		</CreditCardNumber>
+<CardholdersName>xyz		</CardholdersName>
+<CreditCardExpDate>	09/20	</CreditCardExpDate>
+<CreditCardAuthorizationNumber>	13</CreditCardAuthorizationNumber>
+</record>
+</Payments>
+</data-set>

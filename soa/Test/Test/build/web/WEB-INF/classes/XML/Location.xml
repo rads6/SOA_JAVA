@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!ELEMENT data-set (Locations)>
+<!ATTLIST data-set
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Locations (record)+>
+<!ATTLIST Locations
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT record (locationID,locName,locationCode,isActive,customerID,
+                  Address,city,state,postalCode,locationContactName,
+                  locPhone,locEmail)>
+<!ATTLIST record
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT locationID (#PCDATA)>
+<!ATTLIST locationID
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT locName (#PCDATA)>
+<!ATTLIST locName
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT locationCode (#PCDATA)>
+<!ATTLIST locationCode
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT isActive (#PCDATA)>
+<!ATTLIST isActive
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT customerID (#PCDATA)>
+<!ATTLIST customerID
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Address (#PCDATA)>
+<!ATTLIST Address
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT city (#PCDATA)>
+<!ATTLIST city
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT state (#PCDATA)>
+<!ATTLIST state
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT postalCode (#PCDATA)>
+<!ATTLIST postalCode
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT locationContactName (#PCDATA)>
+<!ATTLIST locationContactName
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT locPhone (#PCDATA)>
+<!ATTLIST locPhone
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT locEmail (#PCDATA)>
+<!ATTLIST locEmail
+  xmlns CDATA #FIXED ''>
+
+<data-set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Locations>
+		<record>
+			<locationID>300</locationID>
+			<locName>Urban Chicago</locName>
+			<locationCode>UCHI</locationCode>
+			<isActive>Yes</isActive>
+			<customerID>200</customerID>
+			<Address>North Avenue</Address>
+			<city>Chicago</city>
+			<state>Illinois</state>
+			<postalCode>60616</postalCode>
+			<locationContactName>Mr Neo</locationContactName>
+			<locPhone>789456123</locPhone>
+			<locEmail>matrix@gmail.com</locEmail>
+		</record>
+		<record>
+			<locationID>301</locationID>
+			<locName>Suburban Chicago</locName>
+			<locationCode>SCHI</locationCode>
+			<isActive>Yes</isActive>
+			<customerID>201</customerID>
+			<Address>Willis Street</Address>
+			<city>Chicago</city>
+			<state>Illinois</state>
+			<postalCode>60616</postalCode>
+			<locationContactName>Miss Trinity</locationContactName>
+			<locPhone>456123789</locPhone>
+			<locEmail>matrixreturns@gmail.com</locEmail>
+		</record>
+	</Locations>
+</data-set>

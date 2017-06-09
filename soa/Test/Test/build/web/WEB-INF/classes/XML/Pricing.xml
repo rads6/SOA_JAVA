@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!ELEMENT data-set (Pricing)>
+<!ATTLIST data-set
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Pricing (record)+>
+<!ATTLIST Pricing
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT record (priceID,locationIDFrom,locationIDTO,price,
+                  locationNameFrom,locationNameTo,customerID)>
+<!ATTLIST record
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT priceID (#PCDATA)>
+<!ATTLIST priceID
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT locationIDFrom (#PCDATA)>
+<!ATTLIST locationIDFrom
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT locationIDTO (#PCDATA)>
+<!ATTLIST locationIDTO
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT price (#PCDATA)>
+<!ATTLIST price
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT locationNameFrom (#PCDATA)>
+<!ATTLIST locationNameFrom
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT locationNameTo (#PCDATA)>
+<!ATTLIST locationNameTo
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT customerID (#PCDATA)>
+<!ATTLIST customerID
+  xmlns CDATA #FIXED ''>
+
+<data-set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Pricing>
+		<record>
+			<priceID>600</priceID>
+			<locationIDFrom>UCHI</locationIDFrom>
+			<locationIDTO>UCHI</locationIDTO>
+			<price>1000</price>
+			<locationNameFrom>North Avenue</locationNameFrom>
+			<locationNameTo>Willis</locationNameTo>
+			<customerID>200</customerID>
+		</record>
+		<record>
+			<priceID>601</priceID>
+			<locationIDFrom>UCHI</locationIDFrom>
+			<locationIDTO>SCHI</locationIDTO>
+			<price>1000</price>
+			<locationNameFrom>Willis</locationNameFrom>
+			<locationNameTo>Oak Brook</locationNameTo>
+			<customerID>201</customerID>
+		</record>
+	</Pricing>
+</data-set>

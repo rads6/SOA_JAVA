@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Orders>
+<record>
+          <OrderID>	1000</OrderID>
+<OrderDate>	01/6/2017</OrderDate>
+<CustomerID> 200	</CustomerID>
+<EmployeeID>	100</EmployeeID>
+<TruckID >	50</TruckID >
+<isSPecial>	yes </isSPecial>
+<PurchaseOrderNumber> 90	</PurchaseOrderNumber>
+<OrderTotalAmount>	$50</OrderTotalAmount>
+<VIN>65</VIN>
+
+
+</record>
+<record>
+            <OrderID>	1001</OrderID>
+<OrderDate>01/5/2017	</OrderDate>
+<CustomerID>201	</CustomerID>
+<EmployeeID>	101</EmployeeID>
+<TruckID >51	</TruckID >
+<isSPecial>	no</isSPecial>
+<PurchaseOrderNumber>	91</PurchaseOrderNumber>
+<OrderTotalAmount> $60	</OrderTotalAmount>
+<VIN>66	</VIN>
+
+</record>
+</Orders>
+</data-set>

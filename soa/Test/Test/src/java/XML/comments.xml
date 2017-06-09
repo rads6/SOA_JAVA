@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Comments>
+<record>
+<commentID> 30	</commentID>
+<commentTime> 7Pm	</commentTime>
+<comment>	location change</comment>
+<ID>	100</ID>
+<Type>	customer</Type>
+
+
+
+</record>
+<record>
+  <commentID>31	</commentID>
+<commentTime>8pm	</commentTime>
+<comment>	location accepted</comment>
+<ID> 300	</ID>
+<Type>location	</Type>
+
+
+</record>
+</Comments>
+</data-set>

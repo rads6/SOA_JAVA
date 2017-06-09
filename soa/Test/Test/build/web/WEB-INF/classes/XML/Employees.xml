@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data-set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Employees>
+		<record>
+			<EmployeeID>100</EmployeeID>
+			<FirstName>shyamla</FirstName>
+			<LastName>devi</LastName>
+			<Email>sdevi@gmail.com</Email>
+			<Extension>12345</Extension>
+			<HomePhone>1234512345</HomePhone>
+			<CellPhone>1234512345</CellPhone>
+			<jobTitle>truck drive</jobTitle>
+			<SocialSecurityNumber>1234567890</SocialSecurityNumber>
+			<DriverLicenseNumber>AS123J</DriverLicenseNumber>
+			<City>chicago</City>
+			<State>IL</State>
+			<PostalCode>60616</PostalCode>
+		</record>
+		<record>
+			<EmployeeID>101</EmployeeID>
+			<FirstName>suvarna</FirstName>
+			<LastName>julania</LastName>
+			<Email>sju@gmail.com</Email>
+			<Extension>12346</Extension>
+			<HomePhone>1234612346</HomePhone>
+			<CellPhone>1234612346</CellPhone>
+			<jobTitle>truck drive</jobTitle>
+			<SocialSecurityNumber>1234567891</SocialSecurityNumber>
+			<DriverLicenseNumber>AS121J</DriverLicenseNumber>
+			<City>chicago</City>
+			<State>IL</State>
+			<PostalCode>60617</PostalCode>
+		</record>
+		<record>
+			<EmployeeID>102</EmployeeID>
+			<FirstName>radhika</FirstName>
+			<LastName>gupta</LastName>
+			<Email>rgupta@gmail.com</Email>
+			<Extension>12347</Extension>
+			<HomePhone>1234712347</HomePhone>
+			<CellPhone>1234712347</CellPhone>
+			<jobTitle>truck drive</jobTitle>
+			<SocialSecurityNumber>1234567892</SocialSecurityNumber>
+			<DriverLicenseNumber>AS122J</DriverLicenseNumber>
+			<City>chicago</City>
+			<State>IL</State>
+			<PostalCode>60618</PostalCode>
+		</record>
+	</Employees>
+</data-set>

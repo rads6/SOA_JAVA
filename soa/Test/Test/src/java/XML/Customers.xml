@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data-set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Customers>
+		<record>
+			<CustomerID>100</CustomerID>
+			<BusinessName>Telecom</BusinessName>
+			<BillingAddress>1456 Federal Street</BillingAddress>
+			<City>Chicago</City>
+			<StateOrProvince>Illinois</StateOrProvince>
+			<PostalCode>60616</PostalCode>
+			<PhoneNumber>12345</PhoneNumber>
+			<CellNumber>12345</CellNumber>
+			<EmailAddress>hello@gmail.com</EmailAddress>
+			<CustomerType>Corporate</CustomerType>
+			<CompanyName>Bell Cooperation</CompanyName>
+			<ContactName>Mr Anderson</ContactName>
+			<DateEntered>2012015</DateEntered>
+		</record>
+		<record>
+			<CustomerID>101</CustomerID>
+			<BusinessName>Shipping</BusinessName>
+			<BillingAddress>121 Michigan</BillingAddress>
+			<City>Chicago</City>
+			<StateOrProvince>Illinois</StateOrProvince>
+			<PostalCode>60605</PostalCode>
+			<PhoneNumber>123456</PhoneNumber>
+			<CellNumber>123456</CellNumber>
+			<EmailAddress>yahoo@gmail.com</EmailAddress>
+			<CustomerType>Corporate</CustomerType>
+			<CompanyName>Farguson Shipping Ltd</CompanyName>
+			<ContactName>Mr Smith</ContactName>
+			<DateEntered>12052017</DateEntered>
+		</record>
+	</Customers>
+</data-set>

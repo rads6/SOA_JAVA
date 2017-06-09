@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Transaction>
+<record>
+            <transactionID>	500</transactionID>
+            <OrderID> 1000	</OrderID>
+            <priceID> 600	</priceID>
+            <transactionDate> 01/2/2017</transactionDate>
+            <transactionDescription> truckorder	</transactionDescription>
+            <transactionAmount> $50	</transactionAmount>
+            <employeeID> 100	</employeeID>
+            <truckNo> 50	</truckNo>
+            <discount>	0 </discount>
+
+</record>
+<record>
+             <transactionID> 501	</transactionID>
+            <OrderID>	1001</OrderID>
+            <priceID>601	</priceID>
+          <transactionDate>	02/3/2017</transactionDate>
+          <transactionDescription>	shipment</transactionDescription>
+         <transactionAmount> $60	</transactionAmount>
+        <employeeID> 101 	</employeeID>
+        <truckNo>51	</truckNo>
+         <discount>	9</discount>
+
+</record>
+</Transaction>
+</data-set>

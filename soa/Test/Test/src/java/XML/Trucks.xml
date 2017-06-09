@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data-set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Trucks>
+		<record>
+			<TruckNo>40</TruckNo>
+			<Make>Honda</Make>
+			<Year>1987</Year>
+			<Model>21</Model>
+			<LicensePlateNo>AJ298J</LicensePlateNo>
+			<EmployeeID>100</EmployeeID>
+			<Color>RED</Color>
+			<VIN>700</VIN>
+		</record>
+		<record>
+			<TruckNo>41</TruckNo>
+			<Make>Honda</Make>
+			<Year>1987</Year>
+			<Model>21</Model>
+			<LicensePlateNo>AJ299J</LicensePlateNo>
+			<EmployeeID>101</EmployeeID>
+			<Color>RED</Color>
+			<VIN>701</VIN>
+		</record>
+	</Trucks>
+</data-set>

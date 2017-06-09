@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data-set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Expenses>
+		<record>
+			<ExpenseID>12</ExpenseID>
+			<EmployeeID>100</EmployeeID>
+			<ExpenseType>Salary</ExpenseType>
+			<PurposeofExpense>Salary</PurposeofExpense>
+			<AmountSpent>400</AmountSpent>
+			<Description>Salary</Description>
+			<DatePurchased>42776</DatePurchased>
+			<DateSubmitted>42780</DateSubmitted>
+			<AdvanceAmount>100</AdvanceAmount>
+			<PaymentMethod>cash</PaymentMethod>
+		</record>
+		<record>
+			<ExpenseID>13</ExpenseID>
+			<EmployeeID>101</EmployeeID>
+			<ExpenseType>online</ExpenseType>
+			<PurposeofExpense>Salary</PurposeofExpense>
+			<AmountSpent>401</AmountSpent>
+			<Description>Salary</Description>
+			<DatePurchased>42776</DatePurchased>
+			<DateSubmitted>42780</DateSubmitted>
+			<AdvanceAmount>100</AdvanceAmount>
+			<PaymentMethod>online</PaymentMethod>
+		</record>
+	</Expenses>
+</data-set>
